@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@300&family=Annie+Use+Your+Telescope&family=Montserrat+Alternates:wght@300&family=Space+Grotesk:wght@300&family=Yesteryear&display=swap');
+body{
+    font-family: 'Anek Bangla', sans-serif;
+    font-weight: 300;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+/* text */
+h1 {
+    font-size: 70px;
+    font-weight: 500;
+    color:rgba(17,17,17,0.75);
+}
+
+h2 {
+    font-size: 40px;
+    color:rgba(17,17,17,0.75);
+    font-style: bold;
+    font-weight: 700;
+    letter-spacing: 8px;
+}
+
+h3 {
+    color:rgba(17,17,17,0.75);
+    font-size: 30px;
+    font-weight: 400;
+}
+
+h4 {
+    color:rgba(17,17,17,0.75);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+p {
+    color:rgba(17,17,17,0.75);
+    font-weight: 400;
+    font-size: 16px;
+}
+a {
+    text-decoration: none;
+    color:rgba(17,17,17,0.75);
+}
+/* text */
+
+p {
+    letter-spacing: 0.4px;
+    color:rgba(17,17,17,0.75);
+}
+
+/* text color  */
+.text-color{
+    color:rgba(17,17,17,0.75);
+}
+.text-main{
+    color:rgba(17,17,17,0.75);
+}
+.footer-text{
+    color:#ffffff;
+    font-size: 15px;
+    text-decoration: none;
+
+}
+/* bg-color  */
+.bg-dark {
+    color:rgba(17,17,17,0.75);
+
+}
+/* bg-color  */
+
+.btn{
+    font-size: 20px;
+    letter-spacing: 0.3px;
+    text-decoration: none;
+    text-align: center;
+    padding: 40px 40px;
+}
+.btn-transparent {
+    background-color: #fecf0e;
+    color:rgba(17,17,17,0.75);
+
+}
+.btn-light{
+    border: 1px solid #fecf0e;
+    padding: 20px 20px;
+}
+.btn:hover{
+    opacity: 0.5;
+}
+
+/* .container-fluid{
+    width: 2276px;
+    height: 1280px;
+    margin: 0 auto;
+} */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-item-center{
+    align-items: center;
+}
+.align-s-end{
+    align-self: flex-end;
+}
+.w-100{
+    width: 100%;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* column */
+.row>[class*="col-"]{
+    padding: 12px;
+}
+.col-1{
+    width: 8.33%;
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.33%;
+}
+.col-5{
+    width: 41.66%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.33%;
+}
+.col-8{
+    width: 66.66%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-11{
+    width: 91.66%;
+}
+.col-12{
+    width: 100%;
+}
+/* column */
